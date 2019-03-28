@@ -1,5 +1,4 @@
 # Yaro - Light Extensible Markdown Parser for PHP
------
 
 Yaro is a Parser and Lexer framework meant for Markdown. By Default, Yaro parses **basic** markdown.
 
@@ -51,8 +50,6 @@ echo $yaro->parse("My other markdown string"); // This string is evaluated using
 
 ## Requirements
 
------
-
 PHP 7.2 or above.
 
 ## Supported Markdown
@@ -84,19 +81,13 @@ Yaro's default lexer supports the following markdown:
 
 ## Authors
 
------
-
 - Morgan Breden  | [GitHub](https://github.com/bredmor)  | [Twitter](https://twitter.com/bredmor) | <morganbreden@gmail.com>
 
 ## Contributing
 
------
-
 Pull requests, bug reports and feature requests are welcome.
 
 ## License
-
------
 
 Composer is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
 
