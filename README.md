@@ -1,26 +1,25 @@
-#Yaro - Light Extensible Markdown Parser for PHP
-
+# Yaro - Light Extensible Markdown Parser for PHP
 -----
 
 Yaro is a Parser and Lexer framework meant for Markdown. By Default, Yaro parses **basic** markdown.
 
-##Installation / Usage
+## Installation / Usage
 
 
-###From Source:
+### From Source:
 Clone the repository from GitHub or unzip into your vendor directory. Yaro is packaged for [PSR-4](https://www.php-fig.org/psr/psr-4/) autoloading.
 
-###From Composer:
+### From Composer:
 TODO
 
-###Using in your project:
+### Using in your project:
 
 ```$php
 $yaro = new Yaro();
 echo $yaro->parse("Your *markdown* text here.");
 ```
 
-###Adding a new markdown token to the default lexer:
+### Adding a new markdown token to the default lexer:
 
 ```$php
 $lexer = new bredmor\Yaro\Lexer\DefaultLexer();
@@ -31,7 +30,7 @@ $yaro = new Yaro($lexer);
 echo $yaro->parse("Your custom markdown text here.");
 ```
 
-###Extensibility
+### Extensibility
 You can either `extend` the default parser or lexer, or implement `LexerInterface` and `ParserInterface` on your own, custom classes.
 
 Just pass either to constructor when initiating it and it will be used instead of the default.
@@ -50,13 +49,13 @@ $yaro->setLexer($myOtherLexerClass);
 echo $yaro->parse("My other markdown string"); // This string is evaluated using the new lexer
 ```
 
-##Requirements
+## Requirements
 
 -----
 
 PHP 7.2 or above.
 
-##Supported Markdown
+## Supported Markdown
 Yaro's default lexer supports the following markdown:
 
 \*Italic Emphasis\* with asterisks or underscores
@@ -83,24 +82,24 @@ Yaro's default lexer supports the following markdown:
 
 \!\[Embedded Images](link_to_image.png)
 
-##Authors
+## Authors
 
 -----
 
 - Morgan Breden  | [GitHub](https://github.com/bredmor)  | [Twitter](https://twitter.com/bredmor) | <morganbreden@gmail.com>
 
-##Contributing
+## Contributing
 
 -----
 
 Pull requests, bug reports and feature requests are welcome.
 
-##License
+## License
 
 -----
 
 Composer is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
 
-##Acknowledgements
+## Acknowledgements
 
 Yaro is [named after](https://en.wiktionary.org/wiki/%E9%87%8E%E9%83%8E#Japanese) the individual who really wanted me to write another markdown parser specifically for their use case.
