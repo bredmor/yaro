@@ -90,7 +90,7 @@ Pull requests, bug reports and feature requests are welcome.
 
 ## License
 
-Composer is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
+Yaro is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgements
 
