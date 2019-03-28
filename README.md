@@ -74,7 +74,7 @@ Yaro's default lexer supports the following markdown:
 
 \*Unordered Lists (*, - and +)
 
-\1.Ordered Lists (any number)
+1. Ordered Lists (any number)
 
 \[Links](http://example.com)
 
