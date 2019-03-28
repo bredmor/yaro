@@ -1,4 +1,5 @@
 # Yaro - Light Extensible Markdown Parser for PHP
+[![Build Status](https://travis-ci.org/bredmor/yaro.svg?branch=master)](https://travis-ci.org/bredmor/yaro)
 
 Yaro is a Parser and Lexer framework meant for Markdown. By Default, Yaro parses **basic** markdown.
 
