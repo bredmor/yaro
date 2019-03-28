@@ -12,12 +12,12 @@ final class InstantiationTest extends TestCase {
     }
 
     public function testCanInstiatiateClassWithParser(): void {
-        $yaro = new \bredmor\Yaro\Yaro(new \bredmor\Yaro\Parser\DefaultParser());
+        $yaro = new \bredmor\Yaro\Yaro(null, new \bredmor\Yaro\Parser\DefaultParser());
         $this->assertInstanceOf(Yaro::class, $yaro);
     }
 
     public function testCanInstantiateClassWithLexer(): void {
-        $yaro = new \bredmor\Yaro\Yaro(null, new \bredmor\Yaro\Lexer\DefaultLexer());
+        $yaro = new \bredmor\Yaro\Yaro(new \bredmor\Yaro\Lexer\DefaultLexer());
         $this->assertInstanceOf(Yaro::class, $yaro);
     }
 }
