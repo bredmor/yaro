@@ -1,6 +1,9 @@
 {
     "name": "bredmor/yaro",
     "description": "Extensible Markdown Parser",
+    "keywords": ["markdown","parser","parse","parsing","md"],
+    "homepage": "https://github.com/bredmor/yaro",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Morgan Breden",
