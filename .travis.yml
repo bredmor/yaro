@@ -1,0 +1,8 @@
+language: php
+php:
+  - '7.2'
+  - '7.3'
+  - nightly
+before_script:
+  - phpenv config-rm xdebug.ini
+script: phpunit --bootstrap vendor/autoload.php tests
