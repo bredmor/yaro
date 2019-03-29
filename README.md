@@ -10,7 +10,7 @@ Yaro is a Parser and Lexer framework meant for Markdown. By Default, Yaro parses
 Clone the repository from GitHub or unzip into your vendor directory. Yaro is packaged for [PSR-4](https://www.php-fig.org/psr/psr-4/) autoloading.
 
 ### From Composer:
-TODO
+`composer require bredmor/yaro`
 
 ### Using in your project:
 
