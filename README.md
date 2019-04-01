@@ -15,6 +15,7 @@ TODO
 ### Using in your project:
 
 ```$php
+use bredmor\Yaro\Yaro;
 $yaro = new Yaro();
 echo $yaro->parse("Your *markdown* text here.");
 ```
