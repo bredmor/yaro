@@ -10,7 +10,7 @@ Yaro is a Parser and Lexer framework meant for Markdown. By Default, Yaro parses
 Clone the repository from GitHub or unzip into your vendor directory. Yaro is packaged for [PSR-4](https://www.php-fig.org/psr/psr-4/) autoloading.
 
 ### From Composer:
-TODO
+`composer require bredmor/yaro`
 
 ### Using in your project:
 
@@ -75,7 +75,7 @@ Yaro's default lexer supports the following markdown:
 
 \*Unordered Lists (*, - and +)
 
-\1.Ordered Lists (any number)
+1. Ordered Lists (any number)
 
 \[Links](http://example.com)
 
@@ -91,7 +91,7 @@ Pull requests, bug reports and feature requests are welcome.
 
 ## License
 
-Composer is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
+Yaro is licensed under the GPLv3 License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgements
 
