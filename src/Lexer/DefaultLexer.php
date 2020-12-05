@@ -80,7 +80,7 @@ class DefaultLexer implements LexerInterface  {
     protected function enableElements(): void {
         if(!$this->checkFlag(self::NO_HREF)) {
             // Links
-            self::$tokens['/[^!]\[([^\]]+)\]\((?:javascript:)?([^\)]+)\)/'] = '<a href="\2">\1</a>';
+            self::$tokens['/([^!])\[([^\]]+)\]\((?:javascript:)?([^\)]+)\)/'] = '\1<a href="\3">\2</a>';
         }
 
         if(!$this->checkFlag(self::NO_IMAGES)) {
